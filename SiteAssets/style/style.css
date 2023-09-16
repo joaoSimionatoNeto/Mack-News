@@ -1,0 +1,87 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*Formatação básica*/
+* {
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+body {
+  background: linear-gradient(to top right, #FF0000, #FF6666, #FF9999, #FFCCCC, #FFFFFF);
+  background-repeat: no-repeat;
+}
+
+div {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div img {
+  mix-blend-mode: multiply;
+  width: 50%;
+  align-self: center;
+  margin-top: 80px;
+}
+
+div p {
+  text-align: center;
+
+}
+
+button {
+  height: 35px;
+  width: 160px;
+  font-weight: bold;
+  margin-top: 50px;
+  border-radius: 30px;
+  background: #D9D9D9;
+}
+
+/*mobile*/
+/*Mobile*/
+header {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div {
+  width: 80%;
+}
+
+
+div img {
+  width: 80%;
+}
+
+/*Outros dispositivos*/
+@media (min-width: 992px) {
+  header {
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  div {
+    width: calc(100% -200px);
+  }
+
+  div img {
+    width: 30%;
+  }
+}
