@@ -4,4 +4,12 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+footer p{
+    margin: 5px;
 }

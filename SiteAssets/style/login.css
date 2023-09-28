@@ -55,6 +55,8 @@ fieldset {
   border-radius: 20px;
   width: fit-content;
   block-size: fit-content;
+  border: none;
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.31);
 
 }
 
@@ -111,20 +113,11 @@ div img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 
   }
 
 
-  #inicio {
-    background: linear-gradient(to top right, #FF0000, #FF6666, #FF9999, #FFCCCC, #FFFFFF);
-    padding: 20px;
-    width: 600px;
-    height: 550px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.31);
 
-  }
 
   div img {
 
@@ -147,13 +140,6 @@ div img {
   #leg {
     align-items: center;
     margin-left: 50px;
-  }
-
-
-  #home {
-    background-image: url(img/fundo.jpeg);
-    background-size: cover;
-    width: 97%;
   }
 
   footer {
